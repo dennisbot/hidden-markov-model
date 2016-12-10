@@ -1,0 +1,4 @@
+clase y = O count_y = 25095
+ count_y = 0
+ count_y = 0GENE
+clase y = I-GENE count_y = 8411

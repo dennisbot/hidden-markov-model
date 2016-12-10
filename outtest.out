@@ -1,0 +1,6 @@
+ngram_string = I-GENE ngram_count = 41072
+ngram_string_orig = I-GENE ngram_count = 2032
+
+ngram_string = O ngram_count = 345128
+ngram_string_orig = O ngram_count = 5784
+
