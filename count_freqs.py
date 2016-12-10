@@ -15,7 +15,7 @@ stdout.
 def simple_conll_corpus_iterator(corpus_file):
     """
     Get an iterator object over the corpus file. The elements of the
-    iterator contain (word, ne_tag) tuples. Blank lines, indicating
+    iterator contain (word, ne_tagx) tuples. Blank lines, indicating
     sentence boundaries return (None, None).
     """
     l = corpus_file.readline()
