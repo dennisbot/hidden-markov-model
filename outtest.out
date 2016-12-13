@@ -1,6 +1,31 @@
-ngram_string = I-GENE ngram_count = 41072
-ngram_string_orig = I-GENE ngram_count = 41072
-
-ngram_string = O ngram_count = 345128
-ngram_string_orig = O ngram_count = 345128
-
+ngram_string = * I-GENE STOP ngram_count = 1
+ngram_string = O O I-GENE ngram_count = 2
+ngram_string = * * O ngram_count = 4
+ngram_string = I-GENE O STOP ngram_count = 1
+ngram_string = * O STOP ngram_count = 1
+ngram_string = * I-GENE O ngram_count = 2
+ngram_string = O O ngram_count = 6
+ngram_string = * O ngram_count = 4
+ngram_string = I-GENE STOP ngram_count = 4
+ngram_string = I-GENE I-GENE ngram_count = 4
+ngram_string = O STOP ngram_count = 4
+ngram_string = O I-GENE ngram_count = 4
+ngram_string = I-GENE O ngram_count = 4
+ngram_string = * I-GENE I-GENE ngram_count = 1
+ngram_string = O I-GENE O ngram_count = 1
+ngram_string = * I-GENE ngram_count = 4
+ngram_string = I-GENE ngram_count = 12
+ngram_string = O ngram_count = 14
+ngram_string = I-GENE O O ngram_count = 2
+ngram_string = O I-GENE I-GENE ngram_count = 2
+ngram_string = O I-GENE STOP ngram_count = 1
+ngram_string = I-GENE I-GENE I-GENE ngram_count = 1
+ngram_string = * * ngram_count = 8
+ngram_string = * * I-GENE ngram_count = 4
+ngram_string = * O O ngram_count = 2
+ngram_string = I-GENE I-GENE O ngram_count = 1
+ngram_string = O O O ngram_count = 2
+ngram_string = I-GENE O I-GENE ngram_count = 1
+ngram_string = * O I-GENE ngram_count = 1
+ngram_string = O O STOP ngram_count = 2
+ngram_string = I-GENE I-GENE STOP ngram_count = 2

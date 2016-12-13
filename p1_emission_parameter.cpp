@@ -76,8 +76,8 @@ int main() {
 
         ifstream indev("gene.dev", ios::in);
         ofstream out("gene_dev.p1.out", ios::out | ios::trunc);
-        
-        
+
+
 
         if (indev.is_open()) {
             unordered_map<string, double>::iterator it;
